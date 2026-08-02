@@ -15,6 +15,9 @@ In commercial aviation maintenance, understaffing leads to massive aircraft down
 | **4** | 2,002 | 2.10 | $1,000,000 | $210,200 | **$1,210,200 (Optimal)** |
 | **5** | 2,001 | 0.35 | $1,250,000 | $35,000 | $1,285,000 |
 | **6** | 2,002 | 0.05 | $1,500,000 | $5,000 | $1,505,000 |
+
+### 📈 Cost vs. Queue Bottleneck
+![Optimization Dashboard](optimization_dashboard.png)
 ---
 ## 🛠 Tech Stack & Tools
 * **Simulation Framework:** Python 3.x, `SimPy` (Discrete-event simulation)
