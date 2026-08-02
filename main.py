@@ -72,7 +72,7 @@ def run_experiment(num_technicians):
 # EXECUTE MULTI-SCENARIO TRADE-OFF ANALYSIS
 # ---------------------------------------------------------
 results = []
-staffing_levels = range(2, 7)  # Test 2 to 7 technicians
+staffing_levels = range(2, 7)  # Test 2 to 6 technicians
 
 for techs in staffing_levels:
     res = run_experiment(techs)
@@ -82,6 +82,8 @@ df = pd.DataFrame(results)
 
 print("=== INDUSTRIAL ENGINEERING TRADE-OFF ANALYSIS ===")
 print(df.to_string(index=False))
+df.to_csv("results.csv", index=False)
+print("[SUCCESS] Saved results table: 'results.csv'")
 
 # ---------------------------------------------------------
 # GENERATE PUBLICATION-READY DASHBOARD CHART
