@@ -38,3 +38,9 @@ In commercial aviation maintenance, understaffing leads to massive aircraft down
 ```bash
    python main.py
 ```
+## 🖥 Interactive Dashboard
+Launch the live Streamlit dashboard to explore staffing scenarios interactively:
+```bash
+streamlit run app.py
+```
+Adjust parameters in the sidebar, then use **Run Live Optimization Analysis** for a single staffing level, or **Run Full Comparison** to sweep 2–6 teams and find the cost-optimal staffing level automatically.
