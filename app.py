@@ -24,7 +24,7 @@ arrival_interval = st.sidebar.slider(
 maintenance_time = st.sidebar.slider(
     "Mean Maintenance Duration (Hours)", 2.0, 10.0, 6.0
 )
-sim_time = st.sidebar.slider("Simulation Time Horizon (Hours)", 500, 5000, 2000)
+sim_time = st.sidebar.slider("Simulation Time Horizon (Hours)", 500, 5000, 5000)
 tech_cost = st.sidebar.number_input("Labor Cost ($/hr)", value=50)
 delay_cost = st.sidebar.number_input("Aircraft Delay Penalty ($/hr)", value=1500)
 
