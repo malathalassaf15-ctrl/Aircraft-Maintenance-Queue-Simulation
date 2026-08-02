@@ -33,5 +33,18 @@ In commercial aviation maintenance, understaffing leads to massive aircraft down
 
 ## 🚀 How to Execute the Simulation
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR-USERNAME/Aircraft-Maintenance-Queue-Simulation.git](https://github.com/YOUR-USERNAME/Aircraft-Maintenance-Queue-Simulation.git)
+```bash
+   git clone https://github.com/malathalassaf15-ctrl/Aircraft-Maintenance-Queue-Simulation.git
+```
+2. Navigate into the project folder:
+```bash
+   cd Aircraft-Maintenance-Queue-Simulation
+```
+3. Install dependencies:
+```bash
+   pip install -r requirements.txt
+```
+4. Run the simulation:
+```bash
+   python main.py
+```
