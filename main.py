@@ -72,7 +72,7 @@ def run_experiment(num_technicians):
 # EXECUTE MULTI-SCENARIO TRADE-OFF ANALYSIS
 # ---------------------------------------------------------
 results = []
-staffing_levels = range(2, 8)  # Test 2 to 7 technicians
+staffing_levels = range(2, 7)  # Test 2 to 7 technicians
 
 for techs in staffing_levels:
     res = run_experiment(techs)
