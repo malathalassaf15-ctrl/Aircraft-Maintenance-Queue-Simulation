@@ -5,16 +5,16 @@ In commercial aviation maintenance, understaffing leads to massive aircraft down
 ## 🔬 Engineering Problem & Key Findings
 * **The Queueing Bottleneck:** At low staffing levels ($\le 3$ teams), incoming aircraft face severe queueing delays due to stochastic arrival spikes and variable service times.
 * **The Cost Sweet Spot:** While adding technicians increases payroll, it exponentially reduces aircraft downtime penalties.
-* **Optimal Recommendation:** Increasing staffing from **3 to 4 technician teams** reduces total operating costs by over **50%**, eliminating catastrophic queueing backlogs.
+* **Optimal Recommendation:** Increasing staffing from **3 to 6 technician teams** reduces total operating costs by over **93%**, eliminating catastrophic queueing backlogs.
 ---
 ## 📊 Performance & Optimization Results
 | Technician Teams | Total Aircraft Processed | Avg Wait Time (Hrs) | Labour Cost ($) | Delay Cost ($) | Total Operating Cost ($) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2** | 1,981 | 142.30 | $500,000 | $14,094,750 | $14,594,750 |
-| **3** | 1,996 | 18.45 | $750,000 | $1,841,250 | $2,591,250 |
-| **4** | 2,002 | 2.10 | $1,000,000 | $210,200 | **$1,210,200 (Optimal)** |
-| **5** | 2,001 | 0.35 | $1,250,000 | $35,000 | $1,285,000 |
-| **6** | 2,002 | 0.05 | $1,500,000 | $5,000 | $1,505,000 |
+| **2** | 1,661 | 322.37 | $500,000.00 | $803,174,599.60 | $803,674,599.60 |
+| **3** | 1,989 | 8.40 | $750,000.00 | $25,074,299.96 | $25,824,299.96 |
+| **4** | 1,957 | 0.92 | $1,000,000.00 | $2,714,979.07 | $3,714,979.07 |
+| **5** | 1,974 | 0.22 | $1,250,000.00 | $641,875.90 | $1,891,875.90 |
+| **6** | 1,982 | 0.09 | $1,500,000.00 | $270,674.03 | **$1,770,674.03 (Optimal)** |
 
 ### 📈 Cost vs. Queue Bottleneck
 ![Optimization Dashboard](optimization_dashboard.png)
